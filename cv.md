@@ -1,6 +1,6 @@
 # Curriculum vitae (CV)
 
-## ![Alt-my photo](1.jpg "Hi there")
+## ![Alt-my photo](./assets/img/1.jpg "Hi there")
 
 ---
 
