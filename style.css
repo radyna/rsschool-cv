@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Grotesk&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: rgb(204, 255, 204);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    height: 50px;
+}
+
+.header,
+.main,
+.footer {
+    height: 100px;
+    border: 1px solid red;
 }
