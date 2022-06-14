@@ -6,24 +6,99 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: rgb(204, 255, 204);
+    background-image: url(./assets/img/fon.png);
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: rgb(63, 63, 63);
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1100px;
     margin: auto;
-    height: 50px;
+
+    border-bottom: 1px solid rgb(63, 63, 63);
 }
 
-.header,
-.main,
-.footer {
-    height: 100px;
-    border: 1px solid red;
+.container-1 {
+    max-width: 900px;
+    margin: auto;
+}
+
+.nav {
+    margin: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    padding: 10px;
+    border-radius: 5px;
+    transition: .9s;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    background-color: #d4d4d4;
+}
+
+.nav-link:active {
+    color: blue;
+}
+
+.a:visited {
+    color: #808080;
+}
+
+.img {
+    width: 20%;
+    height: 20%;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #434343;
+}
+
+.avatar {
+    display: flex;
+
+}
+
+.title {
+    padding: 40px 50px 0 50px;
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.title p {
+    margin-top: 10px;
+}
+
+.section-title {
+    padding: 30px 20px 0 20px;
+}
+
+.section-title h2 {
+    margin-bottom: 10px;
+}
+
+.list-skills {
+    list-style: none;
+    margin-left: 30px;
 }
